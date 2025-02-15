@@ -7,8 +7,8 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'keith',
-    PREFIXE: process.env.PREFIX || "+",
+module.exports = { session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA5VUW2+jOBj9Kyu/Jp0AAUIiVVoIlBDIhRCay2q0MmDABAi1uYRU+e8r0lbtw85slycLzPHxdy6vID9jikzUgskrKAiuYYm6ZdkWCEyAUoUhIqAPAlhCMAH6og4L4VqzwlxAtTgbpAqar3hqnI493oXHrVlzlF0R68l4BLc+KCovxf5vAC+JPae93uBirkfeCDqqcVTXphlHZvEyM63UcnEebw/hU2I/gluHCDHBeaQVMcoQgamJ2jXE5Hv0malwbR01wRq9jnXFN9zT+nzVpenSshhC/Xh9YbZmb0zS5nv09QpvX+L6sGOqPabM1p6PVR9yPuTz5KmSbKsWZlbmkb3NvNGnOMpRYAQoL3HZfnvuU6NuCmvUGz/7/mxUJbNwXGKBGjtONS9KMRrI3vK0IlfIHL5HfLMjT+jgeXY+8ldOcFAYZ+EIkLixmfL6dae5A4tLNlc+kr8SX5MPr5z+z9zxcp9gXx2KDZ4/j8xZMpWtuT1uWt+dUXUh0bkmRcmo9mbR9+hLon8yI19PU0zn5nPr2KrDxptGw/XUUpTGTCl7Cg6Nm0Wf9GFZkd+xdHP3wsoGz2Ne763mw+tGEsWeLliUzrkA+stl23JZU2ra7KUhqmBm1YDsml7ia87unO3YOvIG7P4US6hc5sd4M3CXif14v9EJtUYAJuytDwiKMC0JLPE5794JfQCD2kE+QeV9uECy6qmxZOen3jUhgp264+dxsTlnkZkF9dUYck5Y2EnYY1/sR9AHBTn7iFIUzDAtz6RdIEphhCiY/PWzD3J0Kd9k6w4bsn0QYkJLN6+K9AyDD00/PkLfP1d56bS5P+0WiIAJ8/kalSXOI9pNscoh8WNco2kMSwomIUwpuvVBgGrsow4PwOWwWm+C2cbjUtvZaEPXUZDdUY7P+duWIfTGnh+MHkKRRQ88xwwfJGnIPKAg5HmG8T3f40Ef4PfEdP/8UsDYvLiJqmKDrNXUMcXksluNFDFGhXYX4W3yiKAATEpSoT7woH+qiu35hPLf1UayWuzDl5rYREJ27G+X2lHFdCxtpS+4b4qCyetnS03PQYenKZygWfII9EF2NyDubs4J/Egcj4cjluUmvPAn/dF0g4RF8SNHJeiDHHa7gU5QluL8j9Xf5+6wdyU6mACVEKf03g/5gl3ximYOpjVhdF32I3kayeBTuY8AvFmMbe0s4vzZtUk3l3o1fjLbXI4Oi0xtxQVx+FqW3faabIgSPf4LSEc/z43BJR0wp/KoVNDgL7sDn2JuR6bbomWDQJnyojgonc1eMbHnYMeDmUprlX8RJVZotGdmeXmiq9jRyrzkTf6Y8UqXlg8HfT1sv5TmxUC85M5a2eibREc9WUukhK9kTlhhdj9nWUE/LabbfCUabviiikdi4A3LxJnpS47hNKGoD8zYKrw2XO1nznEVvUfzXg3peyXje2xe3/0WYnRvuHcl/lOxT+szt/4XjPfO/IW9lMA/zc/LXJGkuet713rj0KIxdHUeSVViMpXVyE8LyjOwOYDb7WcfFCkswzPJwATQzIOgD1JIS/kzulucIVrCrAATdjQcC+JwyIl9kLVyUTglLD8SD+TuWbcauP0D9SUM/wsIAAA=',
+    PREFIXE: process.env.PREFIX || ".",
     GITHUB : process.env.GITHUB|| 'https://github.com/Keithkeizzah/ALPHA-MD',
     OWNER_NAME : process.env.OWNER_NAME || "Keith",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "254748387615",  
@@ -23,7 +23,7 @@ module.exports = { session: process.env.SESSION_ID || 'keith',
     AUTO_BLOCK: process.env.AUTO_BLOCK || 'no', 
     GCF: process.env.GROUP_CONTROL || 'no', 
     GREET : process.env.GREET || "no",            
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || 'viewed by alpha md',   
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || 'viewed by Gremlin 0_o',   
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || 'no',
     AUTOBIO: process.env.AUTOBIO || 'yes',       
     ANTICALL_MSG : process.env.ANTICALL_MESSAGE || '',             
