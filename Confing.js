@@ -29,7 +29,7 @@ module.exports = { session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA5VUW
     ANTICALL_MSG : process.env.ANTICALL_MESSAGE || '',             
     GURL: process.env.GURL  || "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
     EVENTS :process.env.EVENTS || "yes",
-    CAPTION : process.env.CAPTION || "ALPHA-MD",
+    CAPTION : process.env.CAPTION || "Gremlin 0_o",
     BOT : process.env.BOT_NAME || 'ALPHA_MD',
     MODE: process.env.PUBLIC_MODE || "no",              
     TIMEZONE: process.env.TIMEZONE || "Africa/Nairobi", 
